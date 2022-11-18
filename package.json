@@ -1,0 +1,14 @@
+{
+  "name": "paste-a-bin",
+  "version": "1.0.0",
+  "workspaces":[
+    "paste-a-bin-server",
+    "paste-a-bin-client"
+  ],
+  "scripts": {
+    "start-dev": "source set-local-env.sh; npm run start -w paste-a-bin-server & npm run start -w paste-a-bin-client",
+    "populate": "npm run populate -w paste-a-bin-server",
+    "format": "npm run format -w paste-a-bin-client; npm run format -w paste-a-bin-server",
+    "lint": "npm run lint -w paste-a-bin-client; npm run lint -w paste-a-bin-server"
+  }
+}
