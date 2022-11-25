@@ -1,0 +1,14 @@
+:80 {
+    respond 404
+}
+
+http://paste-a-bin.lol {
+    route /api/* {
+        reverse_proxy http://paste-a-bin-server:3001
+    }
+    route * {
+        root * /app
+        try_files {path} index.html
+        file_server
+    }
+}
