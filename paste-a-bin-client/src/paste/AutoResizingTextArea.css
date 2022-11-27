@@ -1,0 +1,15 @@
+textarea.form-control:disabled {
+  background-color: white;
+}
+
+textarea {
+  min-height: 80px;
+  width: 100%;
+  display: block;
+  resize: none;
+  overflow: hidden;
+}
+
+.detail-input {
+  margin-top: 8px;
+}
