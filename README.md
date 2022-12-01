@@ -57,7 +57,7 @@ The design document is available [here](Design%20Document.pdf)
 
 ## Video demonstration
 
-A [video demonstration](TODO) is available.
+A [video demonstration](https://www.youtube.com/watch?v=os4upGRLYnE) is available.
 
 ## Author
 
