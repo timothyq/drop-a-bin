@@ -13,6 +13,8 @@ import PasteAccessControl from "./PasteAccessControl";
 import PropTypes from "prop-types";
 
 function PastePage({ currentUser }) {
+  // It might make more sense to instantiate your hooks before your functions, as you use hooks within your functions.
+  // It'll make the code a bit easier to follow.
   function onEdit() {
     navigate(`/paste/${pasteId}?edit`);
   }
@@ -103,6 +105,11 @@ function PastePage({ currentUser }) {
     pastePassword,
   ]);
 
+// There may be a way to shorten the code by conditionally rendering
+  // the message card with appropriate information. So instead of displaying four 
+  // different MessageCards with different props, you could have one in code, but
+  // add the appropriate props for each situation. It ultimately works well the way
+  // you have it now, but just thinking of ways to make the code more concise. Good job!
   return (
     <div>
       {pasteRequestError && (
