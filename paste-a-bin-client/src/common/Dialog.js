@@ -44,3 +44,6 @@ Dialog.propTypes = {
 };
 
 export default Dialog;
+
+// Nice file. I particularly like the IndividualButtonGroup component so this file 
+// isn't too long. 
