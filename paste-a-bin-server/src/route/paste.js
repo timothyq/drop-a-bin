@@ -4,6 +4,8 @@ const {
   updatePaste,
   deletePaste,
 } = require("../service/pasteService");
+// I particularly like how your doing named imports for
+// your DB functions. I'll look to use that in my code more!
 
 const express = require("express");
 const router = express.Router();
@@ -61,3 +63,9 @@ router.delete("/:pasteId", async (req, res, next) => {
 });
 
 module.exports = router;
+
+// Not sure what next(e) does, however this is a good file.
+// Made a comment up at the beginning about the named imports for
+// the database functions which were nice to see.
+// I'm sure the professor would have called out using "require" vs "import ... from ..."
+// so I'll call that out too lol. Good job nonetheless!
