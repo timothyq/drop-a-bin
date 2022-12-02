@@ -21,6 +21,10 @@ async function createPaste(paste) {
   return pasteId;
 }
 
+// Interesting way to check the different scenarios to
+// decide whether to return the paste or not. Trying to figure
+// out a way to do this alternatively without the use of so many
+// else if statements, however I can't think of any. Nice.
 async function getPaste(pasteId, user, password) {
   const paste = await dbGetPasteByPasteId(pasteId);
   if (paste.isPublic) {
@@ -72,6 +76,8 @@ async function getHubPastes(user) {
   }
 }
 
+// I haven't used crypto, but this is a cool way to
+// create an id.
 function generateLinkId(objectId) {
   const sha = crypto.createHash("sha1");
   sha.update(objectId.toString() + new Date().getTime());
