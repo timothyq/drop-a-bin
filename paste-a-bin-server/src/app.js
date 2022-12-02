@@ -24,3 +24,6 @@ app.use((err, req, res, next) => {
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
+
+
+// Maybe consider name backend and frontend file so it will be easier to find them
