@@ -76,3 +76,5 @@ module.exports = {
   dbDeleteComment,
   dbGetCommentsByPasteId,
 };
+
+//didnt see any propTypes in the project. Can leave an empty {} if no proptype required
