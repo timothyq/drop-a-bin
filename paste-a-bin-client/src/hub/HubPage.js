@@ -43,3 +43,5 @@ HubPage.propTypes = {
 };
 
 export default HubPage;
+
+// Nice code! couldn't really see any other way to improve upon what you have now.
