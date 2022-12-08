@@ -39,7 +39,7 @@ function LoginPage({ onLogin }) {
             />
             <label htmlFor="login-password-input">Password</label>
           </div>
-          <p className="text-muted detail-text mt-4">
+          <p className="login-hint text-muted detail-text mt-4">
             An account will be automatically created for you if the username
             does not exist
           </p>
