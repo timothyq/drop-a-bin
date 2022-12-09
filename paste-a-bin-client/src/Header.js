@@ -1,5 +1,6 @@
 import IndividualButtonGroup from "./common/IndividualButtonGroup";
 import { Link, useNavigate } from "react-router-dom";
+import "./Header.css"
 import PropTypes from "prop-types";
 
 function Header({ currentUser, onLogout }) {
@@ -37,7 +38,7 @@ function Header({ currentUser, onLogout }) {
           src="/logo.png"
           alt="logo"
         />
-        <span className="fs-4">Paste-a-bin</span>
+        <h1 className="fs-4">Paste-a-bin</h1>
       </Link>
       <IndividualButtonGroup buttons={buttons} />
     </header>
