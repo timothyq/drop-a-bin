@@ -200,7 +200,11 @@ function PasteContainer({
               {showSharePasteControl && (
                 <PasteDetailItem
                   itemName={"Share Paste"}
-                  text={pasteData.isShared ? "Yes" : "No"}
+                  text={
+                    pasteData.isShared
+                      ? `Shared at ${window.location.origin}/paste/${pasteData.pasteId}`
+                      : "No"
+                  }
                   showText={!isEditing}
                   showControls={isEditing}
                 >
