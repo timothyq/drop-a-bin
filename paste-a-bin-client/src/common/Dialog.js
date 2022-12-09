@@ -19,7 +19,7 @@ function Dialog({
       <div className="overlay" />
       <div className="dialog">
         <div className="card shadow-sm">
-          <h5 className="card-header">{title}</h5>
+          <h3 className="card-header">{title}</h3>
           <div className="card-body">
             <div className="col-12">
               <p className="mb-0">{message}</p>

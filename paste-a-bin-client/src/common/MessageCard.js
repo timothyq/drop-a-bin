@@ -41,7 +41,7 @@ function MessageCard({
     <div>
       {show && (
         <div className={`card shadow-sm text-${textColor} bg-${theme}`}>
-          <h5 className="card-header">{title}</h5>
+          <h3 className="card-header">{title}</h3>
           <div className="card-body">
             <p>{message}</p>
             <p className="mb-0">

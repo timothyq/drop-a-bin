@@ -67,11 +67,11 @@ function CommentCard({
     <div className="col-12 mb-4">
       <div className="card shadow-sm">
         {(isCreating || isEditing) && (
-          <h5 className="card-header">
+          <h3 className="card-header">
             <label htmlFor="comment-content-input">
               {isCreating ? "New Comment" : "Edit Comment"}
             </label>
-          </h5>
+          </h3>
         )}
         <div className="card-body">
           <form>

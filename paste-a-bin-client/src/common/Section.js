@@ -5,7 +5,7 @@ function Section({ title, children }) {
     <section>
       <div className="row">
         <div className="col mx-auto mb-2 d-flex justify-content-center">
-          <h3 className="fw-light">{title}</h3>
+          <h2 className="fw-light">{title}</h2>
         </div>
       </div>
       <div className="row">{children}</div>

@@ -31,7 +31,7 @@ function SummaryCard({ pasteId, content, username, allowEdit }) {
   return (
     <div className="col-md-12 col-lg-6 mb-4">
       <div className="card shadow-sm">
-        <h5 className="card-header">{pasteId}</h5>
+        <h3 className="card-header">{pasteId}</h3>
         <div className="card-body">
           <p className="text-muted">{displayedContent}</p>
           <small className="text-muted user-name-text">{username}</small>

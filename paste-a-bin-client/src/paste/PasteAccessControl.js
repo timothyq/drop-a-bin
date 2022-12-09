@@ -25,7 +25,7 @@ function PasteAccessControl({ error, onPasswordSubmit }) {
   return (
     <div className="col-12 mb-4">
       <div className="card shadow-sm">
-        <h5 className="card-header">{title}</h5>
+        <h3 className="card-header">{title}</h3>
         <div className="card-body">
           <p className="mb-0">{message}</p>
           {!pasteNotFound && (

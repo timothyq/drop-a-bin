@@ -1,6 +1,6 @@
 import IndividualButtonGroup from "./common/IndividualButtonGroup";
 import { Link, useNavigate } from "react-router-dom";
-import "./Header.css"
+import "./Header.css";
 import PropTypes from "prop-types";
 
 function Header({ currentUser, onLogout }) {

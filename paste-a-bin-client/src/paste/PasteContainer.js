@@ -152,9 +152,9 @@ function PasteContainer({
     >
       <div className="col-12 mb-4">
         <div className="card shadow-sm">
-          <h5 className="card-header">
+          <h3 className="card-header">
             {isCreating ? "New Paste" : pasteData.pasteId}
-          </h5>
+          </h3>
           <div className="card-body">
             <form className="d-grid gap-4">
               <PasteDetailItem
