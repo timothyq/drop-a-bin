@@ -38,7 +38,7 @@ function Header({ currentUser, onLogout }) {
           src="/logo.png"
           alt="logo"
         />
-        <h1 className="fs-4">Paste-a-bin</h1>
+        <h1>Paste-a-bin</h1>
       </Link>
       <IndividualButtonGroup buttons={buttons} />
     </header>
