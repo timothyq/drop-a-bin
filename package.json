@@ -1,14 +1,15 @@
 {
   "name": "paste-a-bin",
   "version": "1.0.0",
-  "workspaces":[
+  "private": "true",
+  "workspaces": [
     "paste-a-bin-server",
     "paste-a-bin-client"
   ],
   "scripts": {
-    "start-dev": "source set-local-env.sh; npm run start -w paste-a-bin-server & npm run start -w paste-a-bin-client",
-    "populate": "npm run populate -w paste-a-bin-server",
-    "format": "npm run format -w paste-a-bin-client; npm run format -w paste-a-bin-server",
-    "lint": "npm run lint -w paste-a-bin-client; npm run lint -w paste-a-bin-server"
+    "start-dev": "source set-local-env.sh; yarn workspace paste-a-bin-client start & yarn workspace paste-a-bin-server start",
+    "populate": "yarn workspace paste-a-bin-server populate",
+    "format": "yarn workspace paste-a-bin-client format; yarn workspace paste-a-bin-server format",
+    "lint": "yarn workspace paste-a-bin-client lint; yarn workspace paste-a-bin-server lint"
   }
 }
