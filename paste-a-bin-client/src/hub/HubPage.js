@@ -41,9 +41,9 @@ function HubPage({ currentUser }) {
                 your private pastes protected with a password, or make the paste
                 self-destroy! There are endless possibilities for you to find
                 out. Shown below are some latest public pastes posted by
-                paste-a-biners. Enjoy the service!
+                paste-a-biners. Enjoy the service!     
               </div>
-            </div>
+            </div>  Those text created some cluster on the page design, maybe consider redesign it in the future?
           </div>
         </Section>
       )}
