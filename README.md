@@ -53,7 +53,7 @@ This project is created as an assignment for the [CS 5610 Web Development](https
 
 ## Design document
 
-The design document is available [here](Design%20Document.pdf)
+The design document is available [here](Design%20Document.pdf)  design document isn't updated for project four, need to bring it up to date
 
 ## Video demonstration
 
