@@ -15,7 +15,7 @@ function Dialog({
     { text: negativeOption, theme: "secondary", onClick: negativeAction },
   ];
   return (
-    <div className="dialog-container">
+    <div className="dialog-container">    nice fix here, I was experiencing the same Axes issues here
       <div className="overlay" />
       <div className="dialog">
         <div className="card shadow-sm">
